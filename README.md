@@ -2,10 +2,13 @@
 
 <h1>✍️Still In Development</h1>
 
-<h3>Em alguns dispositivos fica completamente bagunçado </h3>
+<h4 align="center">📵Possiveis problemas de responsividade📵</h4>
 
-<p  align="center">
+<br>
+<p align="center">
 <img src="https://tenor.com/view/butterfly-effect-life-is-strange-max-caulfield-chloe-price-life-is-strange2-gif-20231936.gif">
 </p>   
 
-
+<p align="center">
+<img src="">
+</p>

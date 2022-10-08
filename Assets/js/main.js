@@ -18,12 +18,12 @@ function executar(){
 function execut(){
     var meuVideo = document.getElementById("Comp");
     
-    if(meuVideo.pause)
+    if(Comp.pause)
     {
-        meuVideo.play();
+        Comp.play();
     }
     else{
-        meuVideo.pause();
+        Comp.pause();
     }
 
 }
