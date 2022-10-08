@@ -51,9 +51,8 @@ h1,h2,h3,p{
 }
 
 .square{
-    /* position: relative; */
-    z-index: 1;
-    margin-left: 2rem;
+    position: relative;
+    margin-left: 3rem;
     margin-top: 1rem;
     width: 9rem;
 }
@@ -186,7 +185,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     font-size: 0.9rem;
     position: absolute;
     color: #fff;
-    width: 400px;
+    max-width: 400px;
     left: 8rem;
     top: 66%;
     opacity: 0.9;
@@ -199,30 +198,20 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     font-size: 0.9rem;
     position: absolute;
     color: #fff;
-    width: 310px;
+    max-width: 310px;
     left: 69rem;
     top: 70%;
     opacity: 0.7;
 }
 
-/* .arrastar{
-    position: absolute;
-    top: 93%;
-    left: 48%;
-}
-.arrastar img{
-    width: 4rem;
-    transform: rotate(-270deg);  
-} */
+/* fim start */
 
-
-
-/* -------------START END-------------- */
 
 .grid{
     margin-top: 4rem;
-    background-color: #EFF4F8;
+    max-width: 30rem;
 }
+
 
  .container {
     display: grid;
@@ -240,6 +229,13 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 .gif2{
     max-width: 30rem;
  }
+
+ @media (max-width: 600px) {
+    .container, .container2
+
+     { grid-template-columns: repeat(3, 1fr); }
+  }
+
 
 
 .container2{
@@ -307,7 +303,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 }
 
 .trailer video{
-    outline: 5px solid #1c1c1c;
+    outline: 1px solid #1c1c1c;
     outline-offset: 1px;
     margin-top: -20rem;
     /* margin-left: 7rem; */
@@ -362,12 +358,30 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     color: #1c1c1c;
 }
 
+/* COMPARAÇÃO */
+.comp{
+    margin-top: 3rem;
 
-/* .play-icon{
-    margin-top: -0.1rem;
-    width: 1.7rem;
+}
+
+.comparacao h1{
+    font-family: "interbold";
+    letter-spacing: 9px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.comp video{
     cursor: pointer;
-} */
+    margin-top: 2rem;
+    width: 100%;
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
@@ -384,7 +398,6 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 
     .start{
         background-image: url("/Assets/img/maxandchloe.jpg");
-        background-color: #cccccc;
         height: 670px;
         background-position: center center;
         background-repeat: no-repeat;
@@ -394,7 +407,8 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 
 
     .square{
-        margin-left: 7.6rem;
+        max-width: 30rem;
+        margin-left: 8rem;
         margin-top: 0.3rem;
     }
 
@@ -405,11 +419,42 @@ li a:hover, .nav { text-decoration: none; color:#000; }
      display: none;
     }
 
-    /* start end */
+    .container { 
+        display: none;
+        margin-left: 0.3rem;
+        max-width: 1rem;
+         grid-template-columns: repeat(1, 1fr); 
+    }
 
-    .grid{
+    .gif1, .gif2, .gif3{
+        max-width: 25rem;
+    }
+
+    .container2, .narrativa{
+        display: none;
+    }
+
+    .grid video{
+        display: none;
+    }
+
+    .comp{
+        display: none;
+    }
+
+
+
+
+
+
+
+    /* .grid{
         display: grid;
         background-color: #fff;
+    }
+
+    .gif3{
+        max-width: 30px;
     }
 
     .container{
@@ -477,6 +522,6 @@ li a:hover, .nav { text-decoration: none; color:#000; }
         max-width: 20rem;
         max-height: 15rem;
         margin-top: -20rem;
-    }
+    } */
 
 }
