@@ -47,6 +47,7 @@ h1,h2,h3,p{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  transition: ease-in-out .5s;
 }
 
 .square{
@@ -68,10 +69,11 @@ h1,h2,h3,p{
 
 /* nav */
 
-a:visited {
-    text-decoration: none;
-    color: #000000;
-   }
+li a { text-decoration: none; color:#000; }
+li a:visited { text-decoration: none; color:#000; }
+li a:hover { text-decoration: none; color:#000; }
+li a:focus { text-decoration: none; color:#000; }
+li a:hover, .nav { text-decoration: none; color:#000; }
 
 .start .nav{
     z-index: 1;
@@ -102,6 +104,9 @@ a:visited {
     transition: ease-in-out .5s;
 }
 
+.start .nav li a{
+    color: #000000;
+}
 
 /* botões */
 
