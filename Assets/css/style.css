@@ -196,13 +196,13 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 .text2 p{
     position: absolute;
     /* transition: ease-in-out .4s; */
-    font-family: 'Chilanka';
+    font-family: 'interreg';
     font-size: 0.9rem;
     position: absolute;
     color: #fff;
     max-width: 310px;
-    left: 75rem;
-    top: 70%;
+    left: 69rem;
+    top: 71%;
     opacity: 0.9;
 }
 
@@ -324,19 +324,6 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 }
 
 
-/* .play-icon{
-    position: absolute;
-    width: 12rem;
-    margin-left: 40rem;
-    margin-bottom: -14rem;
-    opacity: 0;
-    cursor: pointer;
-}
-.play-icon:hover{
-    cursor: pointer;
-    opacity: 1;
-} */
-
 .btn3{
     width: 12rem;
     height: 3rem;
@@ -385,6 +372,27 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.camera{
+    max-width: 22rem;
+    position: absolute;
+    top: 74%;
+    right: 1%;
+}
+
+/* Soundtrack */
+
+.viol-back{
+    margin-top: 4rem;
+}
+
+.viol-back img{
+    max-width: 70rem;
+    position: absolute;
+    transition: ease-in-out .5s;
+}
+
 
 
 
@@ -446,11 +454,13 @@ li a:hover, .nav { text-decoration: none; color:#000; }
         display: none;
     }
 
+    .soundtrack{
+        display: none;
+    }
 
-
-
-
-
+    .camera{
+        display: none;
+    }
 
     /* .grid{
         display: grid;
