@@ -4,7 +4,6 @@ $(window).on("load",function(){
 
 function executar(){
     var meuVideo = document.getElementById("meuVideo");
-    
     if(meuVideo.pause)
     {
         meuVideo.play();
@@ -13,6 +12,8 @@ function executar(){
         meuVideo.pause();
     }
 
+
+    
 }
 
 function execut(){
