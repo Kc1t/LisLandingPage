@@ -9,14 +9,14 @@ function executar(){
     {
         meuVideo.play();
     }
-    else if(meuVideo.play){
+    else{
         meuVideo.pause();
     }
 
 }
 
 function execut(){
-    var meuVideo = document.getElementById("Comp");
+    var Comp = document.getElementById("Comp");
     
     if(Comp.pause)
     {

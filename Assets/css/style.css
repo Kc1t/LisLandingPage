@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;900&family=Poppins:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
 /* Sei que isso é uma péssima prática, mas tava tendo alguns problemas com o google fonts (= */
-
+@font-face {
+    font-family: 'Chilanka', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+}
 @font-face {
     font-family: "interthin";
     src: url(/Assets/font/Inter/static/Inter-Thin.ttf);
@@ -116,7 +118,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     margin-top: 37rem;
 }
 
-.btn:hover{
+.btn1:hover, .btn2:hover{
     cursor: pointer;
 }
 
@@ -143,8 +145,8 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     opacity: 1;
     display: flex;
     justify-content: center;
-    padding: 8px 10px 10px 10px;
-    font-family: 'interreg', sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Chilanka', sans-serif;
     color: #fff;
 }
 
@@ -194,14 +196,14 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 .text2 p{
     position: absolute;
     /* transition: ease-in-out .4s; */
-    font-family: 'interreg';
+    font-family: 'Chilanka';
     font-size: 0.9rem;
     position: absolute;
     color: #fff;
     max-width: 310px;
-    left: 69rem;
+    left: 75rem;
     top: 70%;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 /* fim start */
@@ -284,7 +286,9 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 
 .narrativa p{
     margin-top: -14rem;
-    font-family: 'interreg';
+    font-family: 'Chilanka';
+    font-size: 1.3rem;
+    opacity: 0.7;
 } 
 
 
@@ -525,3 +529,18 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     } */
 
 }
+
+
+/* .ai{
+    -webkit-animation: fadein 9s;
+    width: 1000rem;
+    height: 1000rem;
+    margin-left: 7rem;
+    position: fixed;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    from { opacity: 1; z-index: 1;}
+    to   { opacity: 0; z-index: -1;}
+} */
