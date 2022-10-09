@@ -1,5 +1,5 @@
 $(window).on("load",function(){
-    $(".loader-wrapper").fadeOut("slow");
+    $(".entrd").fadeOut("slow");
 });
 
 function executar(){
