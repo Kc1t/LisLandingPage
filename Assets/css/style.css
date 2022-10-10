@@ -200,7 +200,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     font-size: 0.9rem;
     position: absolute;
     color: #fff;
-    max-width: 310px;
+    max-width: 320px;
     left: 69rem;
     top: 71%;
     opacity: 0.9;
@@ -213,17 +213,28 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     right: 1%;
 }
 
+@media (max-width: 1300px) {
+    .text2 p{
+        display: none;
+    }
+  }
+
+
 
 /* fim start */
 
 
 .grid{
     margin-top: 4rem;
-    max-width: 30rem;
+    max-width: 400px;
 }
 
 
  .container {
+    margin-left: 46rem;
+    max-width: 29rem;
+    display: grid;
+    justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 11.5px;
@@ -232,12 +243,12 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     align-items: stretch;
  }
 
-.gif1{
-    max-width: 30rem;
+.gif1 img{
+    max-width: 29rem;
 }
 
 .gif2{
-    max-width: 30rem;
+    max-width: 29rem;
  }
 
  @media (max-width: 600px) {
@@ -381,16 +392,19 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 }
 
 /* Soundtrack */
+.soundtrack{
+}
 
 .viol-back{
     margin-top: 4rem;
-    display: grid;
+    display: flex;
 }
 
 .viol-back img{
+    display: flex;
     margin-left: 1.8rem;
     max-width: 55rem;
-    max-height: 60rem;
+    max-height: 100%;
     transition: ease-in-out .5s;
 }
 .text4-s{
@@ -410,7 +424,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 }
 
 .songs{
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     transition: ease-in-out .5s;
 }
 
