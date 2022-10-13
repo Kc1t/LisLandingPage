@@ -556,6 +556,7 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 /* footer */
 
 footer{
+    margin-top: 3rem;
     position: absolute;
     left: 0;
     right: 0;
