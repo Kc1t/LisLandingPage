@@ -96,8 +96,6 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     opacity: 0.8;
     transition: ease-in-out .5s;
 }
-
-
 .start .nav li:hover{
     
     cursor: pointer;
