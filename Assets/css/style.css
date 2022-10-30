@@ -34,6 +34,7 @@ body{
     background-color: #EFF4F8;
     text-decoration: none;
     list-style: none;
+    
 }
 
 h1,h2,h3,p{
@@ -320,7 +321,6 @@ li a:hover, .nav { text-decoration: none; color:#000; }
     transition: ease-in-out .5s;
     outline-offset: 1px;
     margin-top: -20rem;
-    /* margin-left: 7rem; */
     margin-left: 20rem;
     max-width: 60rem;
     max-height: 35rem;
@@ -329,11 +329,11 @@ li a:hover, .nav { text-decoration: none; color:#000; }
 }
 
 .trailer video:hover{
-    /* outline: 4px solid  #F9E33D; */
     opacity: 0.8;
     transform: translateY(-0.5rem) scale(1.0125);
 	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
 }
+
 
 
 .btn3{
