@@ -11,7 +11,12 @@
 </head>
 <body>
 
-    <!-- <div class="ai"><video src="/Assets/img/vd.aud/Life is Strange Animation.mp4.mp4" autoplay muted></video></div>  -->
+    <div class="videoContainer">
+        <video id="fullscreenVideo" autoplay muted>
+            <source src="/Assets/img/vd.aud/Life is Strange Animation.mp4.mp4" type="video/mp4">
+          </video>
+    </div> 
+
     <section id="starts" class="start">
     <img class="square" src="/Assets/img/rnd/Square_Enix_logo.svg.png">
         <div class="nav">
@@ -22,6 +27,7 @@
                 <li><a href="#sound">SOUNDTRACK.</a></li>
                 <li><a href="#franq">FRANQUIA.</a></li>
             </ul>
+
         </div>
         <img class="life" src="/Assets/img/rnd/lifecollec.png">
 
@@ -29,12 +35,11 @@
             <div class="btn1">
                 <li><a href="#meuVideo" type="button" onclick="executar()">ASSISTIR TRAILER</a></li>
             </div>
-            <div class="btn2" onclick='$.playSound("/Assets/img/vd.aud/Life is Strange Remastered Collection Official Trailer Song_ _Carry You Home_.m4a")'>
+            <div class="btn2" id="toggleSound">
                 <li><a>ENTRAR NA IMERSÃO</a></li>
                 
             </div>
 
-            
         </div>
 
         <div class="text1">
@@ -54,24 +59,6 @@
             </p>
         </div>
 
-        <!-- <div class="arrastar">
-            <h3>Explorar</h3>
-            <img src="/Assets/img/comp/NicePng_rustic-arrow-png_409491.png" alt="">
-        </div> -->
-
-        <!-- BAFTA Video Games Award: História
-            GOTY: Jogo mais crítico
-            life is strange golden joystick awards for performance of the year
-            life is strange global game awards for best adventure
-
-
-            Experiencie dois jogos vencedores de premio
-            jogue life is strange como nunca antes
-
-            visuais e animações remasterizados
-            sinta a historia de max e chloe nesse universo tão cativante
-        -->
-
     </section>
 
     <img class="camera" src="/Assets/img/comp/camera.gif">
@@ -83,12 +70,10 @@
             <img class="gif1" src="https://tenor.com/view/life-is-strange-gif-9222068.gif">
             <img class="gif2" src="https://tenor.com/view/life-is-strange-gif-9222015.gif">
             <img class="gif3" src="https://tenor.com/view/max-max-and-chloe-hug-happy-life-is-strange-gif-21847839.gif">
-            <!-- <img class="gif3" src="https://tenor.com/view/life-is-strange-chewing-finger-gun-gun-to-head-shoot-me-gif-16461994.gif"> -->
         </div>
         <div class="container2">
             <img class="gif5" src="https://tenor.com/view/lifeisstrange-gif-25435801.gif">
             <img class="gif6" src="https://tenor.com/view/amberprice-chloe-price-rachel-amber-life-is-strange-before-the-storm-gif-21974218.gif">
-            <!-- <img class="gif4" src="https://tenor.com/view/life-is-strange-gif-9222063.gif"> -->
         </div>
 
         <div class="narrativa">
@@ -102,15 +87,11 @@
             </p>
         </div>
         
-        <!-- Após uma ausência de cinco anos de sua cidade natal, Arcadia Bay, ela retorna à pequena cidade no Oregon para participar de uma aula de fotografia e descobre que tem o poder de voltar no tempo depois que sua amiga, Chloe Price, é baleada e morta. Sonhando com uma tempestade iminente para destruir Arcadia Bay, Max deve descobrir como salvar a cidade e a origem de seus poderes de viagem no tempo. -->
-
-            <!-- <img src="/Assets/img/arrow-left.svg" class="left" id="left">
-            <img src="/Assets/img/arrow-right.svg" class="right" id="right"> -->
         </div>
 
 
-        <div class="trailer">
-            <video type="button" onclick="executar()" id="meuVideo" src="/Assets/img/vd.aud/trailer.mp4" poster="/Assets/img/onlymax.jpg"></video>
+        <div class="trailer" id="trailer">
+            <video type="button" onclick="executar()" id="Vdo" src="/Assets/img/vd.aud/trailer.mp4" poster="/Assets/img/onlymax.jpg"></video>
         </div>
 
     </section>
@@ -123,9 +104,7 @@
         </div>
     </section> -->
 
-
-
-    <!-- Usano Soundcloud pq eu tava sem vontade de criar um player próprio (= -->
+    <!-- Usando Soundcloud pq eu tava sem vontade de criar um player próprio (= -->
     <section id="sound" class="soundtrack">
         <div class="viol-back">
             <img src="/Assets/img/red-guitar-music-musician-Max-Caulfield-Life-Is-Strange-71769-wallhere.com.png">
@@ -193,8 +172,6 @@
         <video src="/Assets/img/Life is Strange Animation.mp4.mp4" autoplay></video>
     </div> -->
 
-    <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
-    <script src='https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'></script>
-    <script src="/Assets/js/main.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>
