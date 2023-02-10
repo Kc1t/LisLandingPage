@@ -1,13 +1,14 @@
 import React from 'react'
-import styled from "styled-components";
-
-const Container = styled.div``
+// import styled from "styled-components";
+import Inicio from '../components/Inicio';
+// import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <Container>
-      
-    </Container>
+    <div>
+      <Inicio/>
+      {/* <Footer/> */}
+    </div>
   )
 }
 
